@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&family=Montaga&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-row">
+        <div id="burger" class="header-menu-btn">
+          <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <span>меню</span>
+        </div>
+        <div class="burger-empty"></div>
+        <h2 class="header-title">
+          За капиталом стоят смыслы,<br />которые меняют мир.
+        </h2>
+        <a href="tel:+79033440444" class="header-tel">+79033440444</a>
+      </div>
+      <div id="header-menu" class="header-menu">
+        <div id="close-burger" class="close-row">
+          <div class="close">
+            <span></span>
+            <span></span>
+          </div>
+          <span>Выход</span>
+        </div>
+        <div class="download">
+          <a href="#">Скачать презентацию</a>
+          <a href="smi.html">Сми о нас</a>
+        </div>
+        <div class="menu-uslugi">
+          <div class="menu-uslugi-title">Услуги</div>
+          <a href="brand.html">Бренд-платформа </a>
+          <a href="#"> Упаковка инвест-проекта </a>
+          <a href="#"> Мерч/подарки </a>
+          <a href="mural.html"> Муралы/граффити </a>
+          <a href="reklama.html"> Дизайн рекламы </a>
+          <a href="moushn.html"> Моушн промо-ролики </a>
+        </div>
+
+        <div class="menu-social">
+          <a href="#">
+            <svg
+              width="28"
+              height="29"
+              viewBox="0 0 28 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.0722656 0.312805V28.0379L27.7974 14.1754L0.0722656 0.312805Z"
+                fill="#EAE6DB"
+              />
+            </svg>
+          </a>
+          <a href="#">
+            <svg
+              width="46"
+              height="28"
+              viewBox="0 0 46 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M38.4031 16.9103C37.9199 16.2547 37.8116 15.591 38.0757 14.9186C38.7346 13.1245 48.3308 1.72966 44.3332 1.72966C41.5861 1.76618 38.2825 1.72966 35.6489 1.72966C35.16 1.84867 34.8437 2.10525 34.6457 2.62728C33.1057 6.17832 31.2212 10.5118 28.4593 13.2969C28.0959 13.5899 27.8693 13.5774 27.4554 13.4691C25.518 11.4294 27.5838 4.44137 26.4056 1.68015C26.1734 1.13966 25.6652 0.895542 25.1451 0.758076C22.5149 0.131218 16.5076 0.504344 15.5274 1.76618C15.2473 2.12689 15.2082 2.32374 15.4104 2.35612C16.3443 2.50346 17.0055 2.85591 17.3946 3.41313C18.1286 5.02968 18.6696 13.6407 16.5076 13.6407C14.3456 13.6407 10.8593 5.18991 9.90161 2.84721C9.64674 2.14183 8.99793 1.73744 8.31429 1.61806L1.91817 1.66698C0.793885 1.66698 0.165545 2.22157 0.564035 3.3389C3.89541 11.6083 11.1856 27.6371 22.3669 27.2358C23.487 27.2358 25.4139 27.6658 26.2887 26.6947C27.4909 25.0998 26.0247 22.2593 28.0862 21.1761C28.606 20.8994 29.1449 21.1313 29.5916 21.4714C31.8845 23.2174 33.1019 26.2819 35.9296 27.2122C36.4268 27.376 36.8625 27.417 37.2365 27.3351L43.2122 27.2369C44.3217 27.2369 45.4146 26.7433 45.185 25.4169C44.3138 22.5726 40.8422 19.6488 38.4031 16.9103Z"
+                fill="#EAE6DB"
+              />
+            </svg>
+          </a>
+          <a href="#">
+            <svg
+              width="37"
+              height="32"
+              viewBox="0 0 37 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.218 3.21328C36.4977 1.4066 34.7799 -0.0194273 33.1735 0.68587L1.17822 14.7335C0.0262275 15.2393 0.110493 16.9842 1.30528 17.3647L7.90351 19.4659C9.16281 19.8669 10.5264 19.6596 11.6261 18.8998L26.5022 8.62227C26.9508 8.31235 27.4397 8.95018 27.0565 9.34533L16.3484 20.3855C15.3096 21.4564 15.5158 23.2711 16.7653 24.0547L28.7541 31.5728C30.0988 32.4161 31.8287 31.569 32.0802 29.9441L36.218 3.21328Z"
+                fill="#EAE6DB"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero-wrap">
+          <div class="hero-wrap-row">
+            <span class="hero-wrap-row-span-1">Смыслы<br />Единение </span>
+            <h1>
+              Братья <br />
+              Сергеевы
+            </h1>
+            <span class="hero-wrap-row-span-2"
+              >Семья <br />
+              Бизнес</span
+            >
+          </div>
+          <div class="hero-bg">
+            <picture>
+              <img src="images/home/home-bg.webp" alt="" />
+              <!-- <source
+                srcset="../images/home/home-bg-mobile.webp"
+                media="(max-width: 657px)"
+              /> -->
+            </picture>
+          </div>
+          <div class="hero-bg-2">
+            <img src="images/home/bg-hero-2.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="presentation">
+        <div class="presentation-wrap">
+          <div class="presentation-blocks">
+            <a href="#" class="blocks-item blocks-item-1">
+              <span>ПРЕЗЕНТАЦИЯ</span>
+              <p>скачать</p>
+            </a>
+            <a href="smi.html" class="blocks-item blocks-item-2">
+              <span>
+                <svg
+                  width="26"
+                  height="16"
+                  viewBox="0 0 26 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25.7071 8.70711C26.0976 8.31659 26.0976 7.68343 25.7071 7.2929L19.3431 0.928938C18.9526 0.538414 18.3195 0.538413 17.9289 0.928938C17.5384 1.31946 17.5384 1.95263 17.9289 2.34315L23.5858 8.00001L17.9289 13.6569C17.5384 14.0474 17.5384 14.6805 17.9289 15.0711C18.3195 15.4616 18.9526 15.4616 19.3431 15.0711L25.7071 8.70711ZM0 8L-2.45877e-08 9L25 9.00001L25 8.00001L25 7.00001L2.45877e-08 7L0 8Z"
+                    fill="#015845"
+                  />
+                </svg>
+                СМИ
+              </span>
+            </a>
+          </div>
+          <div class="presentation-video">
+            <div class="presentation-btn">
+              <svg
+                width="46"
+                height="46"
+                viewBox="0 0 46 46"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M45.6969 22.8106L0.867361 45.123L0.867363 0.498241L45.6969 22.8106Z"
+                  fill="#015845"
+                />
+              </svg>
+            </div>
+
+            <iframe
+              id="video"
+              src="https://vkvideo.ru/video_ext.php?oid=-148681694&id=456239187&hd=2&autoplay=1"
+              width="853"
+              height="480"
+              allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+              frameborder="0"
+              muted
+              allowfullscreen
+            ></iframe>
+            <a class="video-mobile" data-fslightbox="gallery" href="#video">
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="services-grid">
+          <div class="grid-item grid-item-1">
+            <span>Услуги</span>
+            <div class="grid-item-1-img">
+              <img src="images/home/uslugi-1-1.png" alt="" />
+            </div>
+          </div>
+          <div class="grid-item grid-item-2">
+            <img src="images/home/uslugi-2-2.png" alt="" />
+          </div>
+          <a href="brand.html" class="grid-item grid-item-3">
+            <span
+              >Бренд- <br />
+              Платформа</span
+            >
+            <p>миссия, ценности, видение, ЦА, УТП, тон общения, айдентика</p>
+          </a>
+          <a id="invest-btn" class="grid-item grid-item-4">
+            <span
+              >Упаковка <br />
+              Инвест-Проекта</span
+            >
+            <p>презентация, визуалы, стратегия, фин.блок</p>
+          </a>
+          <div class="grid-item grid-item-5">
+            <img src="images/home/uslugi-3.webp" alt="" />
+          </div>
+          <a id="merch-btn" class="grid-item grid-item-6">
+            <span
+              >Мерч, <br />
+              Подарки</span
+            >
+            <p>Одежда, Сувениры, Корпоративные Подарки</p>
+          </a>
+          <div class="grid-item grid-item-7">
+            <img src="images/home/white-block.png" alt="" />
+          </div>
+          <a href="mural.html" class="grid-item grid-item-8">
+            <span
+              >Муралы/ <br />
+              Граффити</span
+            >
+            <p>стрит-арт</p>
+          </a>
+          <a href="reklama.html" class="grid-item grid-item-9">
+            <span
+              >Дизайн <br />
+              Рекламы</span
+            >
+            <p>концепция, визуал, оффер, призыв к действию</p>
+          </a>
+          <a href="moushn.html" class="grid-item grid-item-10">
+            <span
+              >Моушн <br />
+              Промо-Ролики</span
+            >
+            <p>Сценарий, раскадровка, озвучка, отрисовка, анимация, съемка</p>
+          </a>
+          <a href="#" class="grid-item grid-item-11">
+            <span>НОВОСТИ</span>
+          </a>
+          <div class="grid-item grid-item-12-1">
+            <img src="images/home/bg-12-block.png" alt="" />
+          </div>
+          <div class="grid-item grid-item-12">
+            <img src="images/home/uslugi-4.webp" alt="" />
+          </div>
+          <div class="grid-item grid-item-12-2">
+            <img src="images/home/bg-12-2-block.png" alt="" />
+          </div>
+          <div class="grid-item grid-item-13">
+            <span>НАГРАДЫ</span>
+            <img src="images/home/reward-1-1.png" alt="" />
+          </div>
+          <div class="grid-item grid-item-14">
+            <img src="images/home/reward-2.webp" alt="" />
+            <p>2D/3D АНИМАЦИЯ, СТОРИТЕЛЛИНГ, ПРЕЗЕНТАЦИИ</p>
+          </div>
+          <div class="grid-item grid-item-15">
+            <img src="images/home/orange-block.png" alt="" />
+          </div>
+          <a href="#" class="grid-item grid-item-16">
+            <span>ОТЗЫВЫ <br />на платформе яндекс</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="info">
+        <p>
+          Маркетинговое исследование; разработка маркетинговой стратегии;
+          <br />
+          создание логотипа и фирменного стиля; разработка брендбука; создание
+          сайтов; презентации и каталоги; дизайн рекламных материалов;
+          моушн-дизайн для рекламы; корпоративные подарки (открытки и др.);
+          оформление стендов; наградная атрибутика; 3D-рекламные ролики; мерч и
+          дизайн одежды; брендирование автомобилей; лифлеты
+        </p>
+      </section>
+      <section class="work">
+        <div class="work-wrap">
+          <div class="work-button">
+            <div class="work-button-img">
+              <img src="images/home/hand-2.png" alt="" />
+            </div>
+            <button type="button">
+              <svg
+                width="53"
+                height="38"
+                viewBox="0 0 53 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M51.7069 20.7678C52.6832 19.7915 52.6832 18.2085 51.7069 17.2322L35.797 1.32233C34.8206 0.34602 33.2377 0.34602 32.2614 1.32233C31.2851 2.29864 31.2851 3.88155 32.2614 4.85786L46.4036 19L32.2614 33.1421C31.2851 34.1184 31.2851 35.7014 32.2614 36.6777C33.2377 37.654 34.8206 37.654 35.797 36.6777L51.7069 20.7678ZM0.939087 19V21.5H49.9391V19V16.5H0.939087V19Z"
+                  fill="#015845"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="work-info">
+            <p>
+              Ваш бренд <br />
+              ЗАСЛУИВАЕТ ЛУЧШЕГО
+            </p>
+            <span>ПРОВЕДЕМ АУДИТ?</span>
+          </div>
+          <div class="work-bg">
+            <img src="images/home/bg-form.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrap">
+        <div class="footer-nav">
+          <div class="footer-nav-title footer-title">Меню</div>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">О нас </a>
+              </li>
+              <li>
+                <a href="#">Услуги</a>
+              </li>
+              <li>
+                <a href="#">Новости</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-social">
+          <div class="footer-social-title footer-title">Медиа</div>
+          <div class="footer-social-link">
+            <a href="#">
+              <svg
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.40625 0.375V16.625L16.6562 8.5L0.40625 0.375Z"
+                  fill="#015845"
+                />
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                width="28"
+                height="17"
+                viewBox="0 0 28 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M23.1363 10.1032C22.8531 9.71895 22.7896 9.32997 22.9444 8.93585C23.3306 7.88433 28.955 1.20568 26.612 1.20568C25.0019 1.22708 23.0656 1.20568 21.522 1.20568C21.2355 1.27544 21.0501 1.42582 20.934 1.73179C20.0314 3.81309 18.9269 6.35301 17.3081 7.98539C17.0951 8.1571 16.9623 8.14978 16.7197 8.08628C15.5842 6.8908 16.795 2.79505 16.1044 1.17666C15.9683 0.859878 15.6704 0.716796 15.3656 0.636226C13.824 0.268818 10.3031 0.487511 9.72861 1.22708C9.56438 1.4385 9.54147 1.55388 9.66003 1.57286C10.2074 1.65921 10.5949 1.86579 10.8229 2.19238C11.2532 3.13986 11.5702 8.18687 10.3031 8.18687C9.03592 8.18687 6.99258 3.23377 6.43124 1.86069C6.28186 1.44726 5.90158 1.21024 5.50089 1.14027L1.75206 1.16894C1.0931 1.16894 0.724823 1.494 0.958383 2.14888C2.91094 6.99564 7.18379 16.3903 13.7373 16.1551C14.3938 16.1551 15.5232 16.4071 16.0359 15.838C16.7405 14.9032 15.8812 13.2384 17.0894 12.6034C17.3941 12.4413 17.71 12.5772 17.9717 12.7766C19.3157 13.7999 20.0292 15.596 21.6866 16.1413C21.978 16.2373 22.2333 16.2613 22.4525 16.2133L25.955 16.1558C26.6052 16.1558 27.2458 15.8664 27.1112 15.0891C26.6006 13.422 24.5659 11.7083 23.1363 10.1032Z"
+                  fill="#015845"
+                />
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                width="22"
+                height="19"
+                viewBox="0 0 22 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.2194 1.73074C21.3833 0.671825 20.3765 -0.163985 19.435 0.249397L0.682185 8.48288C0.00699226 8.77933 0.0563809 9.80203 0.756659 10.025L4.62395 11.2566C5.36205 11.4916 6.16128 11.3701 6.80581 10.9248L15.5248 4.90101C15.7878 4.71936 16.0744 5.0932 15.8497 5.3248L9.57359 11.7956C8.96476 12.4233 9.08561 13.4869 9.81792 13.9461L16.8447 18.3526C17.6329 18.8468 18.6468 18.3503 18.7942 17.398L21.2194 1.73074Z"
+                  fill="#015845"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-info">
+          <div class="footer-info-title footer-title">Инфо</div>
+          <div class="footer-information">
+            <p>
+              ООО "Братья Сергеевы" <br />ИНН: 1686036881 <br />КПП: 168601001
+            </p>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <div class="footer-contact-title footer-title">Контакты</div>
+          <div class="footer-contact-link">
+            <span>Спартаковская 2А <br />Пн-Пт с 10:00 до 19:00</span>
+            <a href="mailto:sd@sergeev.design">sd@sergeev.design</a>
+            <a href="tel:+79033440444">+79033440444</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-logo">
+        Братья <br />
+        Сергеевы
+      </div>
+    </footer>
+
+    <div class="banner-invest banner">
+      <div class="banner-invest-block banner-block">
+        <div class="invest-block-bg">
+          <img src="images/home/banner-invest.png" alt="" />
+        </div>
+
+        <div class="invest-block-body">
+          <div class="invest-title">Заказать упаковку инвест-проекта</div>
+          <form action="">
+            <div class="form-row">
+              <label for="invest-name">Имя</label>
+              <input type="text" id="invest-name" />
+            </div>
+            <div class="form-row">
+              <label for="invest-phone">Телефон</label>
+              <input class="input-phone" type="tel" id="invest-phone" />
+            </div>
+            <div class="form-row">
+              <label for="invest-textarea">Сообщение</label>
+              <textarea name="" id="invest-textarea"></textarea>
+            </div>
+            <button class="invest-btn" type="submit">отправить</button>
+          </form>
+        </div>
+        <div class="invest-block-img">
+          <img src="images/home/banner-invest-img.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="banner-merch banner">
+      <div class="banner-merch-block banner-block">
+        <div class="invest-block-bg">
+          <img src="images/home/banner-invest.png" alt="" />
+        </div>
+
+        <div class="invest-block-body merch-block-body">
+          <div class="invest-title">Заказать эксклюзивный мерч</div>
+          <form action="">
+            <div class="form-row">
+              <label for="invest-name">Имя</label>
+              <input type="text" id="invest-name" />
+            </div>
+            <div class="form-row">
+              <label for="invest-phone">Телефон</label>
+              <input class="input-phone" type="tel" id="invest-phone" />
+            </div>
+            <div class="form-row">
+              <label for="invest-textarea">Сообщение</label>
+              <textarea name="" id="invest-textarea"></textarea>
+            </div>
+            <button class="invest-btn" type="submit">отправить</button>
+          </form>
+        </div>
+        <div class="invest-block-img">
+          <img src="images/home/banner-merch-img.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="banner-zapros banner">
+      <div class="banner-zapros-block banner-block">
+        <div class="invest-block-bg">
+          <img src="images/home/banner-zapros.png" alt="" />
+        </div>
+
+        <div class="invest-block-body zapros-block-body">
+          <div class="invest-title">
+            Оставить запрос в студию <br />«Братья Сергеевы»
+          </div>
+          <form action="">
+            <div class="form-row">
+              <label for="invest-name">Имя</label>
+              <input type="text" id="invest-name" />
+            </div>
+            <div class="form-row">
+              <label for="invest-phone">Телефон</label>
+              <input class="input-phone" type="tel" id="invest-phone" />
+            </div>
+            <div class="form-row">
+              <label for="invest-textarea">Сообщение</label>
+              <textarea name="" id="invest-textarea"></textarea>
+            </div>
+            <button class="invest-btn" type="submit">отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/maska-nomera.js" type="text/javascript"></script>
+
+    <script>
+      $(".input-phone").mask("+7 (999) 999-99-99");
+
+      $.fn.setCursorPosition = function (pos) {
+        if ($(this).get(0).setSelectionRange) {
+          $(this).get(0).setSelectionRange(pos, pos);
+        } else if ($(this).get(0).createTextRange) {
+          var range = $(this).get(0).createTextRange();
+          range.collapse(true);
+          range.moveEnd("character", pos);
+          range.moveStart("character", pos);
+          range.select();
+        }
+      };
+
+      $('input[type="tel"]').click(function () {
+        $(this).setCursorPosition(4); // set position number
+      });
+    </script>
+  </body>
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.7.4/index.min.js"></script>
+  <script src="js/main.js"></script>
+</html>

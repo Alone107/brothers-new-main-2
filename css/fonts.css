@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Georgia;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Georgia"), url("../fonts/georgia.woff2") format("woff2"),
+    url("../fonts/georgia.woff") format("woff"),
+    url("../fonts/georgia.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Georgia;
+  font-weight: 700;
+  font-style: normal;
+  src: local("Georgia"), url("../fonts/georgiab.woff2") format("woff2"),
+    url("../fonts/georgiab.woff") format("woff"),
+    url("../fonts/georgiab.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Helvetica;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Helvetica"),
+    url("../fonts/helvetica_regular.woff2") format("woff2"),
+    url("../fonts/helvetica_regular.woff") format("woff"),
+    url("../fonts/helvetica_regular.otf") format("otf");
+  font-display: swap;
+}
